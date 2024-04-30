@@ -1,0 +1,52 @@
+/* Estilização geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#f4f4f4, #00ff99);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+/* Estiliza a div que contém a hot bar */
+#hotbar {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Remove padding e margin padrão da lista */
+#hotbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estiliza os itens da lista */
+#hotbar ul li {
+    display: inline; /* Coloca os itens lado a lado */
+}
+
+/* Estiliza os links dentro dos itens da lista */
+#hotbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* Efeito de hover para os links */
+#hotbar ul li a:hover {
+    background-color: #555;
+}
+
+
+#pesquisa1 h1 {
+
+text-align: center;
+text-shadow: #4a4a4a;
+size: 100px;
+color: #000;
+
+}
