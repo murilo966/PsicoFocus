@@ -1,0 +1,130 @@
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+  }
+  
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  a {
+    color: #16a516;
+  }
+  
+  body {
+    padding-top: 5vh;
+    background-image: url(https://lh3.googleusercontent.com/Qa87Bmo5y3f3j1j2Scj-rXM5hOGCuyS5zBCEQoPzPIf7SDrlAOuFY14P7zvZO2CqYRORR-s4Ox3wgzY7FdAsvV7xiumqX_glI7sciGtjtvIuPmvmUn9Q3RlqWCf6oDeDgWiQVMlhLEzH1ObfbQ0hcxfq5KGzBCbtjd4sQVO4DRZIt5oB85sooKoVG4KHTsLmsvwa27Os68Wgy7MdIbaMbNpLDI7NBBh8GyqTIQ7qJ8aacyPdcGGQ_Zm_oygGzuGiZTvF1KFy85fp8yG2WdbT-p3rC4kxIFPqyizHMkU9ypa84qaO0LnCoOlTHeUZ7DIrHhL6ugeRaY9V5k95pxYk26W6yC4zJHmKIi6D1k-EzyhmohOay-eNGFSux8vJV27KotQl90_oHRZor7-j_lCroDvKqWSNebLneI8KSqLiOfXyKsvm7TphAvy7nP6hBvF2xkMjyCjPgH03vQv6qRtZCUFZmK56t9NCDl_k8Q11Nic2elcIdAd3AD5Wxwvk2F7YbBT0TyFOYAyeDwnQF2uU_ioaLXv-kKQYMtd5rmgZLpSnOQNFqzfDK-52eJOIfPMMQQkAHwK3V1pwg8yrzD23hnkKvyT9D5EeLYwDE0edJPeniblB5VD_XUD9-qreReK3I-lwCNNkWZv_PNKRDJPrWOSQmGxbMR_LYMBx2jwnfUxvOzRl2x9GOAaI8uhDs64HWvmW3thS7tQrCTQksKs5dmwomXGhFAocq9ckHar_TWIMscjFJzuOU_1yLkQ=w1000-h563-no?authuser=0);
+    background-size: cover;
+    background-position-y: -150px;
+  
+  }
+  
+  /* form */
+  #main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  #main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+  }
+  
+  .spacing {
+    margin-right: 2.5%;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+  }
+  
+  input:focus {
+    border-color: #0e7a00;
+  }
+  
+  input[type="submit"] {
+    background-color: #12bd29;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #agreement {
+    margin-right: 5px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #148f09;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }
+  .pika h1{
+    color: black;
+}
+
+.pika h2{color: #1d1d1a;}
+
+.pika li {
+	list-style: none;
+	float: center;
+	margin:  15px;
+   
+}
+
+.pika li a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	transition: .5s;
+}
+
+.pika li a:hover {
+	color: #00ff22;
+}
