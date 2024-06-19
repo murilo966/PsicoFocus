@@ -2,7 +2,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
-	background-image: linear-gradient(90deg, #ffffff,#bcf5e4);
+	background-image: linear-gradient(90deg, #f2f4ff,#c5b1fc);
 }
 .container {
 	max-width: 1920px;
@@ -20,7 +20,7 @@ nav {
 	height: 100px;
 	width: 100%;
 	z-index: 1;
-	background-image:linear-gradient(to right, #ffffff, #bcf5e4);
+	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
 	border-bottom: 1px solid rgb(0, 0, 0);
 }
 
@@ -52,12 +52,12 @@ nav:after {
 
 .nav-container li a {
 	text-decoration: none;
-	color: rgb(7, 61, 0);
+	color: rgb(255, 255, 255);
 	transition: .5s;
 }
 
 .nav-container li a:hover {
-	color: #ffffff;
+	color: #f3d1ff;
 }
 
 /* banner */
@@ -94,19 +94,34 @@ nav:after {
 	align-items: center;
 	width: 800px;
 }
+.saibaMais{
+	color: rgb(255, 255, 255);
+	border: none;
+	border-radius: 18px;
+	background-color: #A69CFF;
+	box-shadow: 2px 2px 5px rgb(252, 249, 255);
+}
+.saibaMais:hover{
+	background-color: #E79CFF;
+}
 
 /* Linkagem na página */
 .infoTopic{
-	
-	width: 200px;
-	height: 200px;
-	
-	border: dotted 5px red;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 15vh;
+	height: 15vh;
+	list-style: circle;
+	border: dotted 5px #9CB1FF;
+}
+.infoTopic div li{
+	color: #d24bff;
+}
+.infoTopic div li a:hover{
+	color: #d24bff;
 }
 
-
-
-
-
-   
-	
+.wrapper a:hover{
+	color: #d24bff;
+}
