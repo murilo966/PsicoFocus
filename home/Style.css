@@ -74,12 +74,38 @@ nav:after {
 	align-items: center;
 	width: 800px;
 }
+.card{
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+}
+.repre{
+	border-radius: 25px;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	align-self: center;
+}
+
+hr {
+	border: none;
+	width: 100%;
+	background-color: #9a4dffbb;
+	height: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 .saibaMais{
+	padding: 10px;
+	width: 300px;
 	color: rgb(255, 255, 255);
 	border: none;
 	border-radius: 18px;
 	background-color: #A69CFF;
 	box-shadow: 2px 2px 5px rgb(252, 249, 255);
+	margin: 20px;
 }
 .saibaMais:hover{
 	background-color: #E79CFF;
