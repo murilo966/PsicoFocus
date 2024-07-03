@@ -12,7 +12,7 @@ body {
 	margin-right: auto;
 }
 
-/* navbar */
+/* Cabeçalho */
 nav {
 	position: relative;
 	top: 0;
@@ -59,6 +59,7 @@ nav:after {
 .nav-container li a:hover {
 	color: #f3d1ff;
 }
+/* Body */
 
 #contato {
 	display: flex;
@@ -67,7 +68,6 @@ nav:after {
 	background-size: cover;
 	background-position: 0 25%;
 }
-/* Body */
 .textos{
 	display: flex;
 	flex-direction: column;

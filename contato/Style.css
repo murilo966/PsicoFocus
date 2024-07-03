@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -120,4 +120,7 @@
 
 .pika li a:hover {
 	color: #5eff00;
+} */
+body{
+  margin: 0px;
 }
