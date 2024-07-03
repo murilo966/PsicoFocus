@@ -37,6 +37,19 @@ nav:after {
 	margin-right: auto;
 }
 
+.BtnCab{
+	color: white;
+	border: none;
+	padding: 7px;
+	border-radius: 25px;
+	background-color: #38294A;
+	width: 100px;
+	box-shadow: 2px 2px 5px rgb(252, 249, 255);
+}
+.BtnCab:hover{
+	background-color: #8E6DB6;
+}
+
 .nav-container ul {
 	float: right;
 	height: 100px;
@@ -54,10 +67,6 @@ nav:after {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	transition: .5s;
-}
-
-.nav-container li a:hover {
-	color: #f3d1ff;
 }
 /* Body */
 
@@ -115,3 +124,5 @@ hr {
 .wrapper a:hover{
 	color: #d24bff;
 }
+
+/* Rodapé */
