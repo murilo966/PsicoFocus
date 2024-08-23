@@ -1,0 +1,86 @@
+/* Geral */
+body{
+    font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background-image: linear-gradient(90deg, #f2f4ff,#c5b1fc);
+}
+
+/* Cabeçalho */
+nav {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+	border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.nav-container {
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-container ul {
+	float: right;
+	height: 100px;
+	line-height: 100px;
+	margin: 0;
+}
+
+.nav-container ul li {
+	list-style: none;
+	float: left;
+	margin: 0 15px;
+}
+
+.nav-container li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	transition: .5s;
+}
+
+.nav-container li a:hover {
+	color: #f3d1ff;
+}
+
+/* COPIAR */
+
+.linha1,.linha2{
+	display: flex;
+}
+.topico1_1,.topico1_2,.topico2_1,.topico2_2{
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	width: 55vh;
+}
+.topico1_1,.topico2_1{
+	margin-right: 50px;
+}
+hr {
+	align-self: center;
+	border: none;
+	width: 100%;
+	background-color: #9a4dffbb;
+	height: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* IGNORA */
+
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+	background-position: 0 25%;
+}
