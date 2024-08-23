@@ -49,6 +49,22 @@ nav {
 
 /* Body */
 
+.centralizar{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 110vh;
+}
+.nos{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
 #contato {
 	display: flex;
 	flex-direction: column;
