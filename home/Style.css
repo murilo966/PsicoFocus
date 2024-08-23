@@ -6,7 +6,7 @@ body {
 }
 .container {
 	max-width: 1920px;
-	width: 100%;
+	width: 90%;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -114,4 +114,47 @@ hr {
 /* Linkagem na página */
 .wrapper a:hover{
 	color: #d24bff;
+}
+
+/* RODAPEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+
+
+.rodape{
+    background-color: #f79dffb0;
+    color: white;
+    height: auto;
+    width: 117%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
 }
