@@ -23,18 +23,6 @@ nav {
 	margin-left: auto;
 	margin-right: auto;
 }
-.BtnCab{
-	color: white;
-	border: none;
-	padding: 7px;
-	border-radius: 25px;
-	background-color: #38294A;
-	width: 100px;
-	box-shadow: 2px 2px 5px rgb(252, 249, 255);
-}
-.BtnCab:hover{
-	background-color: #8E6DB6;
-}
 
 .nav-container ul {
 	float: right;
@@ -59,23 +47,35 @@ nav {
 	color: #f3d1ff;
 }
 
-/* Body */
+/* COPIAR */
 
-.centralizar{
+.linha1,.linha2{
 	display: flex;
-	flex-direction: column;
+}
+.topico1_1,.topico1_2,.topico2_1,.topico2_2{
 	justify-content: center;
 	align-items: center;
-	width: 110vh;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	width: 55vh;
 }
-.nos{
-	margin-top: 10px;
-	margin-bottom: 10px;
+.topico1_1,.topico2_1{
+	margin-right: 50px;
+}
+hr {
+	align-self: center;
+	border: none;
+	width: 100%;
+	background-color: #9a4dffbb;
+	height: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
-
-
-
+/* IGNORA */
 
 #contato {
 	display: flex;
