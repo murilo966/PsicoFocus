@@ -102,3 +102,44 @@ hr {
 	background-size: cover;
 	background-position: 0 25%;
 }
+
+
+/*  */
+
+
+
+.rodape footer {
+    background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape footer p {
+    margin: 10px 0;
+}
+
+.rodape footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.rodape footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.rodape footer nav ul li a {
+	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+    text-decoration: none;
+}
+
+.rodape footer nav ul li a:hover {
+    text-decoration: underline;
+}
