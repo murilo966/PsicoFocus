@@ -87,6 +87,9 @@ hr {
 }
 
 /* Body */
+li{
+	margin-bottom: 5px;
+}
 .textos{
 	display: flex;
 	flex-direction: column;
@@ -104,9 +107,7 @@ hr {
 }
 
 
-/*  */
-
-
+/*Rodapé*/
 
 .rodape footer {
     background-image:linear-gradient(to right,#c5c1fc,#c69bff);

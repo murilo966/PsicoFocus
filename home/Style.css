@@ -125,45 +125,40 @@ hr {
 	color: #d24bff;
 }
 
-/* RODAPEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+/*Rodapé*/
 
-
-.rodape{
-    background-color: #f79dffb0;
-    color: white;
-    height: auto;
-    width: 117%;
-    font-size: 14px;
-    font-family: helvetica;
-}
-.rodape a{
-    text-decoration: none;
-    color: white;
-}
-.rodape p{
-    margin-bottom: 5px;
-}
-.rodape-div{
-    display: flex;
-    flex-wrap: wrap;
-    width:100%;
-    margin: auto;
-    align-items: stretch;
-    padding: 60px 10px 40px 10px;
-}
-.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-    display: flex;
-    width: calc(100% / 4 - 20px);
-    padding: 10px;
-}
-.rodape span{
-    font-size: 20px;
-    color: white;
-}
-.rodape-direitos{
-    width: calc(100% - 20px);
-    background-color: black;
-    padding: 10px;
-    margin: 0px;
+.rodape footer {
+    background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+    color: #fff;
+    padding: 20px;
     text-align: center;
+}
+
+.rodape footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape footer p {
+    margin: 10px 0;
+}
+
+.rodape footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.rodape footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.rodape footer nav ul li a {
+	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+    text-decoration: none;
+}
+
+.rodape footer nav ul li a:hover {
+    text-decoration: underline;
 }
