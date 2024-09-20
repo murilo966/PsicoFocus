@@ -1,11 +1,12 @@
-/* * {
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
   body {
-    background-image: linear-gradient(90deg, #d3f6ff,#c8f7fd);
+    background-image: linear-gradient(90deg, #ffffff, rgb(199, 103, 255));
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -76,14 +77,14 @@
   .form textarea:hover,
   .form textarea:focus {
     outline: none;
-    border-color: rgb(140, 255, 0);
-    box-shadow: 0 0 0 3px #348f00;
+    border-color: rgb(225, 0, 255);
+    box-shadow: 0 0 0 3px #ae00ff;
   }
   
   .form button {
     display: block;
     padding: 1rem;
-    background: #28e02e;
+    background: #cf2fff;
     color: #fff;
     font: inherit;
     text-transform: uppercase;
@@ -96,7 +97,7 @@
   .form button:hover,
   .form button:focus {
     outline: none;
-    background: rgb(17, 136, 4);
+    background: rgb(235, 16, 255);
   }
 
   .pika h1{
@@ -119,8 +120,5 @@
 }
 
 .pika li a:hover {
-	color: #5eff00;
-} */
-body{
-  margin: 0px;
+	color: #c300ff;
 }
