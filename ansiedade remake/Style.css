@@ -1,0 +1,153 @@
+/* Geral */
+body{
+    font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background-image: linear-gradient(90deg, #f2f4ff,#c5b1fc);
+}
+
+/* Cabeçalho */
+nav {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+	border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.nav-container {
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.BtnCab{
+	color: white;
+	border: none;
+	padding: 7px;
+	border-radius: 25px;
+	background-color: #38294A;
+	width: 100px;
+	box-shadow: 2px 2px 5px rgb(252, 249, 255);
+}
+.BtnCab:hover{
+	background-color: #8E6DB6;
+}
+
+.nav-container ul {
+	float: right;
+	height: 100px;
+	line-height: 100px;
+	margin: 0;
+}
+
+.nav-container ul li {
+	list-style: none;
+	float: left;
+	margin: 0 15px;
+}
+
+.nav-container li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	transition: .5s;
+}
+
+.nav-container li a:hover {
+	color: #f3d1ff;
+}
+
+/* tipos de ansiedade */
+.Titulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	/* align-items: center; */
+	justify-content: center;
+	width:800px ;
+}
+.col{
+	display: flex;
+	flex-direction: column;
+}
+.blank{
+	width: 20%;
+}
+hr {
+	align-self: center;
+	border: none;
+	width: 100%;
+	background-color: #9a4dffbb;
+	height: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* Body */
+li{
+	margin-bottom: 5px;
+}
+.textos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 780px;
+	margin: 20px;
+}
+
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+	background-position: 0 25%;
+}
+
+
+/*Rodapé*/
+
+.rodape footer {
+    background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape footer p {
+    margin: 10px 0;
+}
+
+.rodape footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.rodape footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.rodape footer nav ul li a {
+	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+    text-decoration: none;
+}
+
+.rodape footer nav ul li a:hover {
+    text-decoration: underline;
+}
