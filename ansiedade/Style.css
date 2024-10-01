@@ -60,19 +60,17 @@ nav {
 	color: #f3d1ff;
 }
 /* tipos de ansiedade */
-.linha1,.linha2,.linha3,.linha4{
+.todas{
 	display: flex;
+	flex-wrap: wrap;
 }
-.topico1_1,.topico1_2,.topico2_1,.topico2_2,.topico3_1,.topico3_2,.topico4_1{
-	justify-content: center;
-	align-items: center;
-	list-style: none;
+.card{
 	display: flex;
 	flex-direction: column;
-	width: 55vh;
-}
-.topico1_1,.topico2_1,.topico3_1,.topico4_1{
-	margin-right: 50px;
+	align-items: center;
+	flex-grow: 1;
+	width: 60vh;
+	margin: 0px 10vh 0px 10vh;
 }
 hr {
 	align-self: center;
