@@ -63,13 +63,14 @@ nav {
 .todas{
 	display: flex;
 	flex-wrap: wrap;
+	margin: 30px;
 }
 .card{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	flex-grow: 1;
-	width: 60vh;
+	width: 50vh;
 	margin: 0px 10vh 0px 10vh;
 }
 hr {
