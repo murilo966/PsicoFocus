@@ -59,8 +59,43 @@ nav {
 .nav-container li a:hover {
 	color: #f3d1ff;
 }
+/* tipos de ansiedade */
+.todas{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px;
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 1;
+	width: 50vh;
+	margin: 0px 10vh 0px 10vh;
+}
+hr {
+	align-self: center;
+	border: none;
+	width: 100%;
+	background-color: #9a4dffbb;
+	height: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
 
 /* Body */
+li{
+	margin-bottom: 5px;
+}
+.textos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 780px;
+	margin: 20px;
+}
 
 #contato {
 	display: flex;
@@ -68,4 +103,48 @@ nav {
 	align-items: center;
 	background-size: cover;
 	background-position: 0 25%;
+}
+
+.enigmaMedio{
+	font-size: 11px;
+	color: #d1cefc;
+}
+
+
+/*Rodapé*/
+
+.rodape footer {
+    background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape footer p {
+    margin: 10px 0;
+}
+
+.rodape footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.rodape footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.rodape footer nav ul li a {
+	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+    text-decoration: none;
+}
+
+.rodape footer nav ul li a:hover {
+    text-decoration: underline;
 }
