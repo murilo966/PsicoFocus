@@ -1,0 +1,130 @@
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+  }
+  
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  a {
+    color: #982bff;
+  }
+  
+  body {
+    padding-top: 5vh;
+    background-image: url(https://wallpapers.com/images/hd/landscape-pictures-67pu8b624mz72p38.jpg);
+    background-size: cover;
+    background-position-y: -150px;
+  
+  }
+  
+  /* form */
+  #main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  #main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+  }
+  
+  .spacing {
+    margin-right: 2.5%;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+  }
+  
+  input:focus {
+    border-color: #59009e;
+  }
+  
+  input[type="submit"] {
+    background-color: #8000ff;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #agreement {
+    margin-right: 5px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #ff0000;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }
+  .pika h1{
+    color: black;
+}
+
+.pika h2{color: #1d1d1a;}
+
+.pika li {
+	list-style: none;
+	float: center;
+	margin:  15px;
+   
+}
+
+.pika li a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	transition: .5s;
+}
+
+.pika li a:hover {
+	color: #8000ff;
+}
