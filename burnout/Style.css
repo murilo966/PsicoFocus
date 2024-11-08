@@ -59,7 +59,7 @@ nav {
 .nav-container li a:hover {
 	color: #f3d1ff;
 }
-/* tipos de ansiedade */
+/* tipos de burnout */
 .todas{
 	display: flex;
 	flex-wrap: wrap;
@@ -83,6 +83,9 @@ hr {
 	margin-bottom: 30px;
 	margin-left: 0px;
 	margin-right: 0px;
+}
+.enigmaDificil{
+	font-size: 9px;
 }
 
 /* Body */
