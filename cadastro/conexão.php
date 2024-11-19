@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $senha_hash = password_hash($senha, PASSWORD_DEFAULT);
 
         // Insere os dados no banco de dados
-        $sql = "INSERT INTO usuarios (email, nome, sobrenome, senha) VALUES ('$email', '$nome', '$sobrenome', '$senha_hash')";
+        $sql = "INSERT INTO usuarios VALUES ('$email', '$nome', '$sobrenome', '$senha_hash')";
 
         if ($conn->query($sql) === TRUE) {
             echo "Novo usuário criado com sucesso!";
