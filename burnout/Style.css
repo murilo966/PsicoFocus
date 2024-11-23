@@ -170,7 +170,8 @@ h4 {
 	font-size: 9px;
 }
 .resposta{
-	font-style: normal;
+	color: #4f4f4f;
+	text-decoration: none;
 }
 .resposta:hover{
 	color: #f4efff;
