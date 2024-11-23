@@ -66,8 +66,35 @@ nav {
 	color: #f3d1ff;
 }
 
+/* Aviso */
+.chamada {
+    text-align: center;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #c5b1fc;
+    color: #fff;
+    border-radius: 8px;
+	padding-top: auto;
+	padding-bottom: auto;
+}
 
-h1, h2 {
+.chamada p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7b3f98;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+h1, h2, h3 strong {
     color: #7b3f98;
     font-family: 'Helvetica', sans-serif;
 }
@@ -91,10 +118,10 @@ h2 {
 }
 
 /*Causas */
-.causas, .tratamentos {
-    background-color: #fff;
+.causas, .tratamentos, .card, .intro {
+    background-color: #f4efff;
     padding: 40px;
-    margin: 30px auto;
+    margin: 30px;
     max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -118,36 +145,6 @@ ul li strong {
     color: #9a7fa6;
 }
 
-/* Aviso */
-.chamada {
-    text-align: center;
-    margin: 30px auto;
-    padding: 40px;
-    background-color: #c5b1fc;
-    color: #fff;
-    border-radius: 8px;
-}
-
-.chamada p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #7b3f98;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #9a7fa6;
-}
-
 /* tipos de ansiedade */
 .todas{
 	display: flex;
@@ -160,18 +157,13 @@ ul li strong {
 	align-items: center;
 	flex-grow: 1;
 	width: 50vh;
-	margin: 0px 10vh 0px 10vh;
+	margin: 0px 5vh 10vh 10vh;
 }
-hr {
-	align-self: center;
-	border: none;
-	width: 100%;
-	background-color: #9a4dffbb;
-	height: 5px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-left: 0px;
-	margin-right: 0px;
+.card img{
+	margin: 25px;
+}
+h4 {
+	color: #9a7fa6;
 }
 
 /* Body */
