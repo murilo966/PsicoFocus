@@ -6,9 +6,7 @@ $password = "";
 $dbname = "cadastro";
 
 // Cria a conexão
-if ( $conn = mysqli_connect($servername, $user, $password, $dbname)) {
-    echo "<meta http-equiv='refresh' content='0; url=../home'>";
-}
+if ( $conn = mysqli_connect($servername, $user, $password, $dbname)) {}
 else
 echo "erro";
 

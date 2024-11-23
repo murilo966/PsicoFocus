@@ -9,10 +9,9 @@ $sql = "INSERT INTO `usuarios` (id, email, nome, senha) VALUES (NULL, '$email','
 
 mysqli_query($conn, $sql);
 
+echo "<meta http-equiv='refresh' content='0; url=../home'>";
+
 ?>
-     <div class="pika">
-        <li><a href="index.html">volte para o menu</a></li>
-        </div>
 
 
 
