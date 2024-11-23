@@ -1,7 +1,14 @@
 /* Geral */
-body{
-    font-family: 'Open Sans', sans-serif;
+*{
+	box-sizing: border-box;
 	margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+	color: #4f4f4f;
 	background-image: linear-gradient(90deg, #f2f4ff,#c5b1fc);
 }
 
@@ -60,6 +67,85 @@ nav {
 	color: #f3d1ff;
 }
 
+/* Aviso */
+.chamada {
+    text-align: center;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #c5b1fc;
+    color: #fff;
+    border-radius: 8px;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.chamada p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7b3f98;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+h1, h2, h3 strong {
+    color: #7b3f98;
+    font-family: 'Helvetica', sans-serif;
+}
+h2 {
+    margin-top: 20px;
+}
+
+/*Introdução */
+.intro {
+    background-color: #fff;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/*Causas */
+.causas, .tratamentos, .card, .intro {
+    background-color: #f4efff;
+    padding: 40px;
+    margin: 30px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.causas h2, .tratamentos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+
+ul li strong {
+    color: #9a7fa6;
+}
+
 
 /* tipos de depressão */
 .todas{
@@ -72,19 +158,14 @@ nav {
 	flex-direction: column;
 	align-items: center;
 	flex-grow: 1;
-	width: 60vh;
-	margin: 20px 10vh 0px 10vh;
+	width: 50vh;
+	margin: 0px 5vh 10vh 10vh;
 }
-hr {
-	align-self: center;
-	border: none;
-	width: 100%;
-	background-color: #9a4dffbb;
-	height: 5px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-left: 0px;
-	margin-right: 0px;
+.card img{
+	margin: 25px;
+}
+h4 {
+	color: #9a7fa6;
 }
 
 
