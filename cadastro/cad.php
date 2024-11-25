@@ -39,7 +39,7 @@ include('conexão.php');
         <input id="btn-submit" type="submit" value="Registrar">
       </div>
       <div class="pika">
-        <li><a href="../home/">volte para o menu</a></li>
+        <li><a href="../home/">volte para a home</a></li>
         </div>
     </form>
   </div>

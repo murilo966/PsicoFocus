@@ -36,12 +36,12 @@ nav {
 	border: none;
 	padding: 7px;
 	border-radius: 25px;
-	background-color: #38294A;
+	background-color: #905dce;
 	width: 100px;
 	box-shadow: 2px 2px 5px rgb(252, 249, 255);
 }
 .BtnCab:hover{
-	background-color: #8E6DB6;
+	background-color: #b080eb;
 }
 
 .nav-container ul {
@@ -146,8 +146,7 @@ ul li strong {
     color: #9a7fa6;
 }
 
-
-/* tipos de depressão */
+/* tipos de burnout */
 .todas{
 	display: flex;
 	flex-wrap: wrap;
@@ -167,7 +166,20 @@ ul li strong {
 h4 {
 	color: #9a7fa6;
 }
-
+.enigmaDificil{
+	font-size: 9px;
+}
+.responseLink{
+	text-decoration: none;
+}
+.resposta{
+	color: #4f4f4f;
+	text-decoration: none;
+}
+.resposta:hover{
+	color: #f4efff;
+	background-color: #e0adfa;
+}
 
 /* Body */
 li{
@@ -220,10 +232,13 @@ li{
 }
 
 .rodape footer nav ul li a {
-	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
     text-decoration: none;
 }
 
 .rodape footer nav ul li a:hover {
     text-decoration: underline;
+}
+
+.container nav{
+	height: 40px;
 }

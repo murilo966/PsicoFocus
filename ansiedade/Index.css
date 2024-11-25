@@ -4,12 +4,11 @@
 	margin: 0;
     padding: 0;
 }
-
 body{
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-	color: #4f4f4f;
 	background-image: linear-gradient(90deg, #f2f4ff,#c5b1fc);
+	color: #4f4f4f;
 }
 
 /* Cabeçalho */
@@ -24,24 +23,17 @@ nav {
 	border-bottom: 1px solid rgb(0, 0, 0);
 }
 
+nav:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
 .nav-container {
 	max-width: 1200px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.BtnCab{
-	color: white;
-	border: none;
-	padding: 7px;
-	border-radius: 25px;
-	background-color: #38294A;
-	width: 100px;
-	box-shadow: 2px 2px 5px rgb(252, 249, 255);
-}
-.BtnCab:hover{
-	background-color: #8E6DB6;
 }
 
 .nav-container ul {
@@ -52,6 +44,7 @@ nav {
 }
 
 .nav-container ul li {
+	height: 100px;
 	list-style: none;
 	float: left;
 	margin: 0 15px;
@@ -63,8 +56,17 @@ nav {
 	transition: .5s;
 }
 
-.nav-container li a:hover {
-	color: #f3d1ff;
+.BtnCab{
+	color: white;
+	border: none;
+	padding: 7px;
+	border-radius: 25px;
+	background-color: #905dce;
+	width: 100px;
+	box-shadow: 2px 2px 5px rgb(252, 249, 255);
+}
+.BtnCab:hover{
+	background-color: #b080eb;
 }
 
 /* Aviso */
@@ -146,7 +148,7 @@ ul li strong {
     color: #9a7fa6;
 }
 
-/* tipos de burnout */
+/* tipos de ansiedade */
 .todas{
 	display: flex;
 	flex-wrap: wrap;
@@ -165,17 +167,6 @@ ul li strong {
 }
 h4 {
 	color: #9a7fa6;
-}
-.enigmaDificil{
-	font-size: 9px;
-}
-.resposta{
-	color: #4f4f4f;
-	text-decoration: none;
-}
-.resposta:hover{
-	color: #f4efff;
-	background-color: #e0adfa;
 }
 
 /* Body */
@@ -196,6 +187,13 @@ li{
 	align-items: center;
 	background-size: cover;
 	background-position: 0 25%;
+}
+.enigmaMedio{
+	font-size: 11px;
+	color: #d1cefc;
+}
+.responseLink{
+	text-decoration: none;
 }
 
 
@@ -229,10 +227,13 @@ li{
 }
 
 .rodape footer nav ul li a {
-	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
     text-decoration: none;
 }
 
 .rodape footer nav ul li a:hover {
     text-decoration: underline;
+}
+
+.container nav{
+	height: 40px;
 }
