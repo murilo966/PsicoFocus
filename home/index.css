@@ -68,6 +68,60 @@ nav:after {
 .BtnCab:hover{
 	background-color: #b080eb;
 }
+
+
+/* Carrossel com imagens em destaque */
+
+.carrossel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Título sobreposto */
+.slide-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(235, 230, 243, 0.904);
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.slide-content h3 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #6f35b6;
+    font-weight: bold;
+}
+
+.link {
+	text-decoration: none;
+}
+
 /* Body */
 
 #contato {
