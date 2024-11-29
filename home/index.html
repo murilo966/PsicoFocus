@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="stylesheet" href= "Index.css">
+		<link rel="stylesheet" href= "style.css">
 		<title>Psico Focus</title>
 		
 	</head>
@@ -28,7 +28,7 @@
 		</nav>
 	</header>
 	<body>
-		<div class="container">
+		<div class="caixa">
 			
 
 			<section id="contato">
@@ -43,7 +43,7 @@
 								<div class="slide">
 									<img src="../imagens/ansiedadeG1.png" alt="Notícia 1">
 									<div class="slide-content">
-										<a class="link" href="https://g1.globo.com/ciencia-e-saude/noticia/6-maneiras-de-treinar-seu-cerebro-a-lidar-com-a-ansiedade-mal-que-afeta-13-milhoes-de-brasileiros.ghtml">
+										<a target="_blank" class="link" href="https://g1.globo.com/ciencia-e-saude/noticia/6-maneiras-de-treinar-seu-cerebro-a-lidar-com-a-ansiedade-mal-que-afeta-13-milhoes-de-brasileiros.ghtml">
 											<h3>6 maneiras de treinar seu cérebro a lidar com a ansiedade ...</h3>
 										</a>
 									</div>
@@ -51,7 +51,7 @@
 								<div class="slide">
 									<img src="../imagens/respiracaoCNN.png" alt="Notícia 2">
 									<div class="slide-content">
-										<a class="link" href="">
+										<a target="_blank" class="link" href="https://www.cnnbrasil.com.br/saude/respiracao-4-7-8-como-usar-a-tecnica-para-dormir-ou-reduzir-a-ansiedade/">
 											<h3>Respiração 4-7-8: como usar a técnica para dormir ou reduzir a ...</h3>
 										</a>
 									</div>
@@ -59,7 +59,7 @@
 								<div class="slide">
 									<img src="../imagens/DepressaoUol.png" alt="Notícia 3">
 									<div class="slide-content">
-										<a class="link" href="">
+										<a target="_blank" class="link" href="https://www1.folha.uol.com.br/equilibrio/2024/08/diagnostico-de-tipo-especifico-de-depressao-pode-ajudar-no-tratamento-individualizado.shtml">
 											<h3>Diagnóstico de tipo específico de depressão pode ajudar ...</h3>
 										</a>
 									</div>
@@ -67,7 +67,7 @@
 								<div class="slide">
 									<img src="../imagens/burnoutGlobo.png" alt="Notícia 4">
 									<div class="slide-content">
-										<a class="link" href="">
+										<a target="_blank" class="link" href="https://oglobo.globo.com/saude/burnout-como-identificar-os-sinais-da-exaustao-por-excesso-de-trabalho-no-corpo-25398043">
 											<h3>Burnout: Como identificar os sinais da exaustão por excesso ...</h3>
 										</a>
 									</div>
@@ -75,7 +75,7 @@
 								<div class="slide">
 									<img src="../imagens/transtornosUol.png" alt="Notícia 5">
 									<div class="slide-content">
-										<a class="link" href="">
+										<a target="_blank" class="link" href="https://www.uol.com.br/vivabem/noticias/redacao/2020/09/15/os-10-transtornos-mentais-mais-comuns-saiba-identificar-os-seus-sinais.htm">
 											<h3>Os 10 transtornos mentais mais comuns, seus ... </h3>
 										</a>
 									</div>
@@ -89,7 +89,7 @@
 					<div class="card">
 						<img src="../imagens/ansiedadeCard.png"
 						class="repre">
-						<div class="container">
+						<div class="info">
 							<h2> O que é a ansiedade ? </h2>
 
 							<p>    Os transtornos de ansiedade são doenças relacionadas ao funcionamento do corpo e às experiências
@@ -106,7 +106,7 @@
 					<div class="card">
 						<img src="../imagens/burnoutCard.png"
 						class="repre">
-						<div class="container">
+						<div class="info">
 							<h2> O que é burnout ? </h2>
 
 							<p>    Síndrome de Burnout ou Síndrome do Esgotamento Profissional é um disturbio emocional com sintomas de
@@ -121,7 +121,7 @@
 					<div class="card">
 						<img src="../imagens/depressaoCard.png"
 						class="repre">
-						<div class="container">
+						<div class="info">
 							<h2> O que é a depressão ? </h2>
 
 							<p>    A depressão é uma doença mental que gera alterações no humor, voltadas, principalmente, aos sentimentos de
@@ -131,18 +131,24 @@
 						</div>
 					</div>
 					<hr>
-					
-					<div class="topicos">
-						<h2>CONTATO</h2>
-						<p>Deposite aqui seu comentario ou avaliação relacioando ao site e seus produtos.</p>
-						<a href="../contato/" class="light-btn">Enviar comentario</a>
+					<div class="contato">
+						<img src="../imagens/contato.png" alt="imagem de contato" width="440px" height="390px">
+						
+						<div class="topicos">
+							<h2>CONTATO</h2>
+							<p>Deposite aqui seu comentario ou avaliação relacioando ao site e seus produtos.</p>
+							<a href="../contato/"><input class="saibaMais" type="button" value="Enviar Mensagem"></a>
+						</div>
 					</div>
 				</div>
 			</section>
 			<br>
 		</div>
+
+		<script src="scripts.js"></script>
+	</body>
+	<footer>
 		<div class="rodape">
-			<footer>
 				<div class="container">
 					<p>&copy; 2024 PsicoFocus. Todos os direitos reservados.</p>
 					<br>
@@ -155,10 +161,7 @@
 					<br>
 					<p>Endereço: Rua Engenheiro Saint Martin, 10-12 - Centro, Bauru - SP</p>
 				</div>
-			</footer>
 		</div>
-
-		<script src="scripts.js"></script>
-	</body>
+	</footer>
 	
 </html>

@@ -1,15 +1,26 @@
 /* geral */
+*{
+	& h2{
+		color: #7b3f98;
+		text-shadow: 1px 1px 2px rgba(150, 129, 170, 0.664);
+	}
+}
+
 body {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	background-image: linear-gradient(90deg, #f2f4ff,#c5b1fc);
+	justify-content: center;
+	align-items: center;
 }
-.container {
-	max-width: 1920px;
-	width: 90%;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
+header {
+	width: 100%;
+}
+footer{
+	width: 100%;
 }
 
 /* Cabeçalho */
@@ -79,7 +90,6 @@ nav:after {
     max-width: 800px;
     margin: 0 auto;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .slides {
@@ -105,10 +115,9 @@ nav:after {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(235, 230, 243, 0.904);
+    background-color: #f4efff;
     padding: 10px 15px;
     text-align: center;
-    border-radius: 0 0 8px 8px;
 }
 
 .slide-content h3 {
@@ -145,11 +154,33 @@ nav:after {
 .repre{
 	border-radius: 25px;
 }
-.container{
+.caixa {
 	display: flex;
 	flex-direction: column;
-	margin: 20px;
+	justify-content: center;
+	align-items: center;
 	align-self: center;
+	position: relative;
+	background-color: #f4efff;
+	padding: 40px;
+    margin: 30px;
+    max-width: 900px;
+    border-radius: 8px;
+	& p {
+		text-align: justify;
+	}
+}
+.info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0px 10px 20px;
+	& p {
+		margin: 0px;
+		margin-bottom: 10px;
+		width: 370px;
+	}
 }
 
 hr {
@@ -179,40 +210,53 @@ hr {
 	color: #d24bff;
 }
 
+.contato{
+	display: flex;
+	flex-direction: row;
+	& .topicos{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;	
+		width: 320px;
+	}
+}
+
+
 /*Rodapé*/
 
-.rodape footer {
+footer .rodape{
     background-image:linear-gradient(to right,#c5c1fc,#c69bff);
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-.rodape footer .container {
+footer .rodape.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.rodape footer p {
+footer .rodape p {
     margin: 10px 0;
 }
 
-.rodape footer nav ul {
+footer .rodape nav ul {
     list-style: none;
     padding: 0;
     margin: 10px 0;
 }
 
-.rodape footer nav ul li {
+footer .rodape nav ul li {
     display: inline;
     margin: 0 10px;
 }
 
-.rodape footer nav ul li a {
+footer .rodape nav ul li a {
     text-decoration: none;
 }
 
-.rodape footer nav ul li a:hover {
+footer .rodape nav ul li a:hover {
     text-decoration: underline;
 }
 
