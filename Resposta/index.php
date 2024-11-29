@@ -6,7 +6,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="stylesheet" href= "index.css">
+		<link rel="stylesheet" href= "style.css">
 		<title>Psico Focus</title>
 		
 	</head>
@@ -34,10 +34,23 @@
 		<br><br><br><br><br><br><br><br><br><br><br><br>
 		<div class="validator">
 			<h1 style="color:rgb(115, 82, 143);">Achou algo oculto?</h1>
-			<?php
-				echo "<input type='text' name='validator' placeholder='Insira sua resposta' value=a>";
-				if ($value == "a") {
-					echo "certo";
+			<form action="" method="post">
+				<textarea class ="palpite" name="validator" placeholder="Insira sua resposta"></textarea>
+				<input class="botao" type="submit" value="enviar">
+			</form>
+			<?php 
+				if ($_SERVER["REQUEST_METHOD"] === "POST") {
+					$valor = strtoupper($_POST["validator"]);
+
+					if ($valor == "SIGMUND FREUD") {
+						echo "<p>[1/3] Parabéns, você resolveu o enigma fácil 🎉🎉  (+1 ponto)</p>";
+					} elseif ($valor == "A PIOR SOLIDAO E NAO ESTAR CONFORTAVEL CONSIGO MESMO") {
+						echo "<p>[2/3] Parabéns, você resolveu o enigma médio 🎉🎉  (+1 ponto)</p>";
+					} elseif ($valor == "WILHELM WUNDT") {
+						echo "<p>[3/3] Parabéns, você resolveu o enigma difícil 🎉🎉  (+1 ponto)</p>";
+					} else {
+						echo "acho que você só está vendo coisas ";
+					}
 				}
 			?>
 			
