@@ -28,12 +28,12 @@ nav {
 	border: none;
 	padding: 7px;
 	border-radius: 25px;
-	background-color: #38294A;
+	background-color: #905dce;
 	width: 100px;
 	box-shadow: 2px 2px 5px rgb(252, 249, 255);
 }
 .BtnCab:hover{
-	background-color: #8E6DB6;
+	background-color: #b080eb;
 }
 
 .nav-container ul {
