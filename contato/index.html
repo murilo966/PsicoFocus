@@ -5,16 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário de Contato</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Style.css" />
   </head>
   <body>
     <h1> Contato</h1>
-    <form action="https://formsubmit.co/hrslives@gmail.com" method="POST" class="form">
-        <input type="text" name="name" placeholder="Insira seu nome....">
-        <input type="email" name="email" placeholder="Insira seu email....">
-        <input type="text" name="Mensagem" placeholder="Nos deixe seu comentário xD....">
-      <button type="submit">Enviar</button>
+    <form id="formulario" action="https://formsubmit.co/hrslives@gmail.com" method="POST" class="form">
+      <input type="text" name="name" placeholder="Insira seu nome...." required>
+      <input type="email" name="email" placeholder="Insira seu email...." required>
+      <input class="mensagem" type="text" name="Mensagem" placeholder="Nos deixe seu comentário xD...." required>
+      <input class="submit" type="submit" value="Enviar">
     </form>
+    <script>
+      const form = document.getElementById('formulario');
+      const textarea = form.querySelector('.mensagem');
+      form.querySelector('.mensagem').addEventListener('keydown', function(event) {
+        if (event.key == "Enter") {
+          if (textarea.value.trim().length > 0) {
+            form.submit();
+          } else {
+            alert("Por favor, insira uma resposta.");
+          }
+        }
+      });
+    </script>
 
     <div class="pika">
     <li><a href="../home/">volte para a home</a></li>

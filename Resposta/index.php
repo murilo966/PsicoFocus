@@ -31,13 +31,26 @@
 		</nav>
 	</header>
 	<body>
-		<br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br>
 		<div class="validator">
 			<h1 style="color:rgb(115, 82, 143);">Achou algo oculto?</h1>
-			<form action="" method="post">
-				<textarea class ="palpite" name="validator" placeholder="Insira sua resposta"></textarea>
+			<form id="formulario" action="" method="post">
+				<textarea required class ="palpite" name="validator" placeholder="Insira sua resposta"></textarea>
 				<input class="botao" type="submit" value="enviar">
 			</form>
+			<script>
+				const form = document.getElementById('formulario');
+				const textarea = form.querySelector('.palpite');
+				form.querySelector('.palpite').addEventListener('keydown', function(event) {
+					if (event.key == "Enter") {
+						if (textarea.value.trim().length > 0) {
+							form.submit();
+						} else {
+							alert("Por favor, insira uma resposta.");
+						}
+					}
+				});
+			</script>
 			<?php 
 				if ($_SERVER["REQUEST_METHOD"] === "POST") {
 					$valor = strtoupper($_POST["validator"]);
@@ -49,13 +62,13 @@
 					} elseif ($valor == "WILHELM WUNDT") {
 						echo "<p>[3/3] Parabéns, você resolveu o enigma difícil 🎉🎉  (+1 ponto)</p>";
 					} else {
-						echo "acho que você só está vendo coisas ";
+						echo "<p>Será que você só está vendo coisas 🤔?</p>";
 					}
 				}
 			?>
 			
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br>
 	</body>
 	<div class="rodape">
 		<footer>

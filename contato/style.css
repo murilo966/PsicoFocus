@@ -45,8 +45,7 @@ h2::before {
 
 .form label,
 .form input,
-.form textarea,
-.form button {
+.form textarea{
   display: block;
   width: 100%;
 }
@@ -81,10 +80,10 @@ h2::before {
   box-shadow: 0 0 0 3px #E79CFF;
 }
 
-.form button {
+.submit{
   display: block;
   padding: 1rem;
-  background: #A69CFF;
+  background-color: #A69CFF;
   color: #fff;
   font: inherit;
   text-transform: uppercase;
@@ -94,8 +93,8 @@ h2::before {
   transition: 0.2s;
 }
 
-.form button:hover,
-.form button:focus {
+.submit:hover,
+.submit:focus {
   outline: none;
   background: #E79CFF;
 }
