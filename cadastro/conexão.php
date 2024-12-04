@@ -6,8 +6,12 @@ $password = "";
 $dbname = "cadastro";
 
 // Cria a conexão
-if ( $conn = mysqli_connect($servername, $user, $password, $dbname)) {}
-else
+if ( $conn = mysqli_connect($servername, $user, $password, $dbname)) {
+
+}
+else{
+    
+}
 echo "erro";
 
 ?>

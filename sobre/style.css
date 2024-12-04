@@ -93,3 +93,44 @@ nav {
 	color: #4f4f4f;
 	text-decoration: none;
 }
+
+/*Rodapé*/
+
+.rodape footer {
+    background-image:linear-gradient(to right,#c5c1fc,#c69bff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape footer p {
+    margin: 10px 0;
+}
+
+.rodape footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.rodape footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.rodape footer nav ul li a {
+    text-decoration: none;
+}
+
+.rodape footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container nav{
+	height: 40px;
+}
