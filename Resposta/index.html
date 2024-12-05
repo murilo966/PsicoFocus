@@ -6,7 +6,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="stylesheet" href= "style.css">
+		<link rel="stylesheet" href= "styles.css">
 		<title>Psico Focus</title>
 		
 	</head>
@@ -14,7 +14,7 @@
 		<nav>
 			<div class="nav-container">
 				
-				<a href="../home/">
+				<a href="../">
 					<img id="logo"src="../imagens/PsicoFocus.png" alt="Psico"
 					width="150px"
 					height="100px"
@@ -35,37 +35,47 @@
 		<div class="validator">
 			<h1 style="color:rgb(115, 82, 143);">Achou algo oculto?</h1>
 			<form id="formulario" action="" method="post">
-				<textarea required class ="palpite" name="validator" placeholder="Insira sua resposta"></textarea>
+				<textarea required id="validator"class ="palpite" name="validator" placeholder="Insira sua resposta"></textarea>
 				<input class="botao" type="submit" value="enviar">
 			</form>
+			<div id="resultado"></div>
 			<script>
 				const form = document.getElementById('formulario');
 				const textarea = form.querySelector('.palpite');
-				form.querySelector('.palpite').addEventListener('keydown', function(event) {
-					if (event.key == "Enter") {
+				const resultado = document.getElementById('resultado');
+
+				textarea.addEventListener('keydown', function (event) {
+					if (event.key === "Enter") {
+						event.preventDefault();
 						if (textarea.value.trim().length > 0) {
-							form.submit();
+							validarResposta();
 						} else {
 							alert("Por favor, insira uma resposta.");
 						}
 					}
 				});
-			</script>
-			<?php 
-				if ($_SERVER["REQUEST_METHOD"] === "POST") {
-					$valor = strtoupper($_POST["validator"]);
+				form.addEventListener('submit', function (event) {
+					event.preventDefault();
+					validarResposta();
+				});
 
-					if ($valor == "SIGMUND FREUD") {
-						echo "<p>[1/3] Parabéns, você resolveu o enigma fácil 🎉🎉  (+1 ponto)</p>";
-					} elseif ($valor == "A PIOR SOLIDAO E NAO ESTAR CONFORTAVEL CONSIGO MESMO") {
-						echo "<p>[2/3] Parabéns, você resolveu o enigma médio 🎉🎉  (+1 ponto)</p>";
-					} elseif ($valor == "WILHELM WUNDT") {
-						echo "<p>[3/3] Parabéns, você resolveu o enigma difícil 🎉🎉  (+1 ponto)</p>";
+				function validarResposta() {
+					const valor = textarea.value.trim().toUpperCase();
+
+					if (valor === "SIGMUND FREUD") {
+						resultado.innerHTML = "<p>[1/3] Parabéns, você resolveu o enigma fácil 🎉🎉  (+1 ponto)</p>";
+					} else if (valor === "A PIOR SOLIDAO E NAO ESTAR CONFORTAVEL CONSIGO MESMO") {
+						resultado.innerHTML = "<p>[2/3] Parabéns, você resolveu o enigma médio 🎉🎉  (+1 ponto)</p>";
+					} else if (valor === "WILHELM WUNDT") {
+						resultado.innerHTML = "<p>[3/3] Parabéns, você resolveu o enigma difícil 🎉🎉  (+1 ponto)</p>";
 					} else {
-						echo "<p>Será que você só está vendo coisas 🤔?</p>";
+						resultado.innerHTML = "<p>Será que você só está vendo coisas 🤔?</p>";
 					}
+
+					textarea.value = "";
 				}
-			?>
+			</script>
+				
 			
 		</div>
 		<br><br><br><br><br><br><br><br><br>
