@@ -23,7 +23,7 @@
 
 #Imagens:
   <p align="center">
-    <img src="https://github.com/andrecomegno/API-CRUD/blob/main/src/image/logo.jpg" alt="Logo" height="280">
+    <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/Depressao%20Psicótica.jpg" alt="Logo" height="280">
   </p>
 
 
