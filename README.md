@@ -23,16 +23,16 @@
 
 # Imagens:
   <p align="center">
-    <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/ReadMeIMG/Home.png" alt="Logo" width="280">
+    <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/ReadMeIMG/Home.png" alt="Logo" width="450">
   </p>
   <p align="center">
-    <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/ReadMeIMG/Home2.png" alt="Logo" width="280">
+    <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/ReadMeIMG/Home2.png" alt="Logo" width="450">
   </p>
   <p align="center">
-    <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/ReadMeIMG/IntroBurn.png" alt="Logo" width="280">
+    <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/ReadMeIMG/IntroBurn.png" alt="Logo" width="450">
   </p>
   <p align="center">
-    <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/ReadMeIMG/TiposAns.png" alt="Logo" width="280">
+    <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/ReadMeIMG/TiposAns.png" alt="Logo" width="450">
   </p>
 
 
