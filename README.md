@@ -27,4 +27,4 @@
   </p>
 
 
-### **Integrantes**: Murilo de Sousa, Henrique Ramos Sales, Gabriel Alves Cuba, Vitor Henrique de Oliveira Felizardo
+## **Integrantes**: Murilo de Sousa, Henrique Ramos Sales, Gabriel Alves Cuba, Vitor Henrique de Oliveira Felizardo
