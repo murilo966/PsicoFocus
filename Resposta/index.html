@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -8,26 +6,20 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href= "styles.css">
 		<title>Psico Focus</title>
-		<link rel="icon" type="image/png" href="../imagens/PFLogo.png">
-		
+		<link rel="icon" type="image/png" href="../imagens/PFLogo.png">	
 	</head>
 	<header>
 		<nav>
-			<div class="nav-container">
-				
+			<div class="nav-container">				
 				<a href="../">
 					<img id="logo"src="../imagens/PsicoFocus.png" alt="Psico"
 					width="150px"
-					height="100px"
-					>
+					height="100px">
 				</a>
 				<ul>
-			
 					<li><a href="../sobre/"><input class="BtnCab" type="button" value="Sobre"></a></li>
 					<li><a href="../contato/"><input class="BtnCab" type="button" value="Contato"></a></li>
-
 				</ul>
-
 			</div>
 		</nav>
 	</header>
@@ -44,7 +36,6 @@
 				const form = document.getElementById('formulario');
 				const textarea = form.querySelector('.palpite');
 				const resultado = document.getElementById('resultado');
-
 				textarea.addEventListener('keydown', function (event) {
 					if (event.key === "Enter") {
 						event.preventDefault();
@@ -59,10 +50,8 @@
 					event.preventDefault();
 					validarResposta();
 				});
-
 				function validarResposta() {
 					const valor = textarea.value.trim().toUpperCase();
-
 					if (valor === "SIGMUND FREUD") {
 						resultado.innerHTML = "<p>[1/3] Parabéns, você resolveu o enigma fácil 🎉🎉  (+1 ponto)</p>";
 					} else if (valor === "A PIOR SOLIDAO E NAO ESTAR CONFORTAVEL CONSIGO MESMO") {
@@ -72,12 +61,9 @@
 					} else {
 						resultado.innerHTML = "<p>Será que você só está vendo coisas 🤔?</p>";
 					}
-
 					textarea.value = "";
 				}
 			</script>
-				
-			
 		</div>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	</body>
@@ -96,8 +82,5 @@
 				<p>Endereço: Rua Engenheiro Saint Martin, 10-12 - Centro, Bauru - SP</p>
 			</div>
 		</footer>
-		
 	</div>
-	
-	
 </html>

@@ -1,10 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-image: linear-gradient(90deg, #f2f4ff, #c5b1fc);
   min-height: 100vh;
@@ -17,7 +15,6 @@ body {
   padding-right: 1rem;
   padding-left: 1rem;
 }
-
 h1,
 h2 {
   font-size: 3rem;
@@ -26,36 +23,30 @@ h2 {
   text-align: center;
   line-height: 1.2;
 }
-
 h1::before {
   content: "📧";
   display: block;
 }
-
 h2::before {
   content: "🐅";
   display: block;
 }
-
 .form {
   width: 100%;
   max-width: 32rem;
   font-size: 1.125rem;
 }
-
 .form label,
 .form input,
 .form textarea{
   display: block;
   width: 100%;
 }
-
 .form label {
   color: #fff;
   line-height: 1;
   margin-bottom: 0.5rem;
 }
-
 .form input,
 .form textarea {
   font: inherit;
@@ -65,12 +56,10 @@ h2::before {
   border-radius: 8px;
   transition: border-color, box-shadow 0.2s;
 }
-
 .form textarea {
   min-height: 13rem;
   resize: vertical;
 }
-
 .form input:hover,
 .form input:focus,
 .form textarea:hover,
@@ -79,7 +68,6 @@ h2::before {
   border-color: #E79CFF;
   box-shadow: 0 0 0 3px #E79CFF;
 }
-
 .submit{
   display: block;
   padding: 1rem;
@@ -92,32 +80,26 @@ h2::before {
   cursor: pointer;
   transition: 0.2s;
 }
-
 .submit:hover,
 .submit:focus {
   outline: none;
   background: #E79CFF;
 }
-
 .pika h1{
   color: black;
 } 
-
 .pika h2{color: #1d1d1a;}
-
 .pika li {
   list-style: none;
   float: right;
   margin:  15px;
   
 }
-
 .pika li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   transition: .5s;
 }
-
 .pika li a:hover {
   color: #A69CFF
 }

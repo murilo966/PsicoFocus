@@ -4,14 +4,12 @@
 	margin: 0;
     padding: 0;
 }
-
 body{
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 	color: #4f4f4f;
 	background-image: linear-gradient(90deg, #f2f4ff,#c5b1fc);
 }
-
 /* Cabeçalho */
 nav {
 	position: relative;
@@ -23,14 +21,12 @@ nav {
 	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
 	border-bottom: 1px solid rgb(0, 0, 0);
 }
-
 .nav-container {
 	max-width: 1200px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .BtnCab{
 	color: white;
 	border: none;
@@ -43,30 +39,25 @@ nav {
 .BtnCab:hover{
 	background-color: #b080eb;
 }
-
 .nav-container ul {
 	float: right;
 	height: 100px;
 	line-height: 100px;
 	margin: 0;
 }
-
 .nav-container ul li {
 	list-style: none;
 	float: left;
 	margin: 0 15px;
 }
-
 .nav-container li a {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	transition: .5s;
 }
-
 .nav-container li a:hover {
 	color: #f3d1ff;
 }
-
 /* Aviso */
 .chamada {
     text-align: center;
@@ -78,12 +69,10 @@ nav {
 	padding-top: auto;
 	padding-bottom: auto;
 }
-
 .chamada p {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
-
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -93,8 +82,6 @@ nav {
     font-weight: bold;
     border-radius: 5px;
 }
-
-
 h1, h2, h3 strong {
     color: #7b3f98;
     font-family: 'Helvetica', sans-serif;
@@ -102,7 +89,6 @@ h1, h2, h3 strong {
 h2 {
     margin-top: 20px;
 }
-
 /*Introdução */
 .intro {
     background-color: #fff;
@@ -112,12 +98,10 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 .intro h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
-
 /*Causas */
 .causas, .tratamentos, .card, .intro {
     background-color: #f4efff;
@@ -127,25 +111,20 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 .causas h2, .tratamentos h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
-
 ul {
     list-style-type: none;
 }
-
 ul li {
     padding: 10px 0;
     font-size: 1.1rem;
 }
-
 ul li strong {
     color: #9a7fa6;
 }
-
 /* tipos de burnout */
 .todas{
 	display: flex;
@@ -180,7 +159,6 @@ h4 {
 	color: #f4efff;
 	background-color: #e0adfa;
 }
-
 /* Body */
 li{
 	margin-bottom: 5px;
@@ -192,7 +170,6 @@ li{
 	width: 780px;
 	margin: 20px;
 }
-
 #contato {
 	display: flex;
 	flex-direction: column;
@@ -200,45 +177,35 @@ li{
 	background-size: cover;
 	background-position: 0 25%;
 }
-
-
 /*Rodapé*/
-
 .rodape footer {
     background-image:linear-gradient(to right,#c5c1fc,#c69bff);
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-
 .rodape footer .container {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .rodape footer p {
     margin: 10px 0;
 }
-
 .rodape footer nav ul {
     list-style: none;
     padding: 0;
     margin: 10px 0;
 }
-
 .rodape footer nav ul li {
     display: inline;
     margin: 0 10px;
 }
-
 .rodape footer nav ul li a {
     text-decoration: none;
 }
-
 .rodape footer nav ul li a:hover {
     text-decoration: underline;
 }
-
 .container nav{
 	height: 40px;
 }

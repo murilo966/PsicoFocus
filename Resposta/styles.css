@@ -34,9 +34,7 @@ form{
 	& p{
 		margin-top: 50px;
 		font-size: 30px;
-	}
-	
-	
+	}	
 }
 .container {
 	max-width: 1920px;
@@ -57,39 +55,33 @@ nav {
 	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
 	border-bottom: 1px solid rgb(0, 0, 0);
 }
-
 nav:after {
 	clear: both;
 	content: "";
 	display: block;
 }
-
 .nav-container {
 	max-width: 1200px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .nav-container ul {
 	float: right;
 	height: 100px;
 	line-height: 100px;
 	margin: 0;
 }
-
 .nav-container ul li {
 	list-style: none;
 	float: left;
 	margin: 0 15px;
 }
-
 .nav-container li a {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	transition: .5s;
 }
-
 .BtnCab{
 	color: white;
 	border: none;
@@ -103,7 +95,6 @@ nav:after {
 	background-color: #b080eb;
 }
 /* Body */
-
 #contato {
 	display: flex;
 	flex-direction: column;
@@ -131,7 +122,6 @@ nav:after {
 	margin: 20px;
 	align-self: center;
 }
-
 hr {
 	border: none;
 	width: 100%;
@@ -153,49 +143,39 @@ hr {
 .saibaMais:hover{
 	background-color: #E79CFF;
 }
-
 /* Linkagem na página */
 .wrapper a:hover{
 	color: #d24bff;
 }
-
 /*Rodapé*/
-
 .rodape footer {
     background-image:linear-gradient(to right,#c5c1fc,#c69bff);
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-
 .rodape footer .container {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .rodape footer p {
     margin: 10px 0;
 }
-
 .rodape footer nav ul {
     list-style: none;
     padding: 0;
     margin: 10px 0;
 }
-
 .rodape footer nav ul li {
     display: inline;
     margin: 0 10px;
 }
-
 .rodape footer nav ul li a {
     text-decoration: none;
 }
-
 .rodape footer nav ul li a:hover {
     text-decoration: underline;
 }
-
 .container nav{
 	height: 40px;
 }

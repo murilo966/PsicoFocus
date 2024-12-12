@@ -5,7 +5,6 @@
 		text-shadow: 1px 1px 2px rgba(150, 129, 170, 0.664);
 	}
 }
-
 body {
 	display: flex;
 	flex-direction: column;
@@ -22,7 +21,6 @@ header {
 footer{
 	width: 100%;
 }
-
 /* Cabeçalho */
 nav {
 	position: relative;
@@ -34,39 +32,33 @@ nav {
 	background-image:linear-gradient(to right,#c5c1fc,#c69bff);
 	border-bottom: 1px solid rgb(0, 0, 0);
 }
-
 nav:after {
 	clear: both;
 	content: "";
 	display: block;
 }
-
 .nav-container {
 	max-width: 1200px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .nav-container ul {
 	float: right;
 	height: 100px;
 	line-height: 100px;
 	margin: 0;
 }
-
 .nav-container ul li {
 	list-style: none;
 	float: left;
 	margin: 0 15px;
 }
-
 .nav-container li a {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	transition: .5s;
 }
-
 .BtnCab{
 	color: white;
 	border: none;
@@ -79,10 +71,7 @@ nav:after {
 .BtnCab:hover{
 	background-color: #b080eb;
 }
-
-
 /* Carrossel com imagens em destaque */
-
 .carrossel {
     overflow: hidden;
     position: relative;
@@ -91,24 +80,20 @@ nav:after {
     margin: 0 auto;
     border-radius: 8px;
 }
-
 .slides {
     display: flex;
     transition: transform 0.8s ease-in-out;
 }
-
 .slide {
     flex: 0 0 100%;
     position: relative;
 }
-
 .slide img {
     width: 100%;
     height: 400px;
     object-fit: cover;
     border-radius: 8px;
 }
-
 /* Título sobreposto */
 .slide-content {
     position: absolute;
@@ -119,20 +104,16 @@ nav:after {
     padding: 10px 15px;
     text-align: center;
 }
-
 .slide-content h3 {
     font-size: 1.2em;
     margin: 0;
     color: #6f35b6;
     font-weight: bold;
 }
-
 .link {
 	text-decoration: none;
 }
-
 /* Body */
-
 #contato {
 	display: flex;
 	flex-direction: column;
@@ -182,7 +163,6 @@ nav:after {
 		width: 370px;
 	}
 }
-
 hr {
 	border: none;
 	width: 100%;
@@ -204,12 +184,10 @@ hr {
 .saibaMais:hover{
 	background-color: #E79CFF;
 }
-
 /* Linkagem na página */
 .wrapper a:hover{
 	color: #d24bff;
 }
-
 .contato{
 	display: flex;
 	flex-direction: row;
@@ -221,45 +199,35 @@ hr {
 		width: 320px;
 	}
 }
-
-
 /*Rodapé*/
-
 footer .rodape{
     background-image:linear-gradient(to right,#c5c1fc,#c69bff);
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-
 footer .rodape.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 footer .rodape p {
     margin: 10px 0;
 }
-
 footer .rodape nav ul {
     list-style: none;
     padding: 0;
     margin: 10px 0;
 }
-
 footer .rodape nav ul li {
     display: inline;
     margin: 0 10px;
 }
-
 footer .rodape nav ul li a {
     text-decoration: none;
 }
-
 footer .rodape nav ul li a:hover {
     text-decoration: underline;
 }
-
 .container nav{
 	height: 40px;
 }
