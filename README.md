@@ -21,10 +21,10 @@
   Trazemos as principais causas e consequências, juntamente com o conhecimento embasado em arquivos e blogs online que buscam
   responder o que representa cada uma das sensações descritas anteriormente e seus modelos de ocorrência
 
-#Imagens:
+# Imagens:
   <p align="center">
     <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/Depressao%20Psicótica.jpg" alt="Logo" height="280">
   </p>
 
 
-**Integrantes**: MURILO DE SOUSA, HENRIQUE RAMOS SALES, GRABIEL ALVES CUBA, VITOR HENRIQUE DE OLIVEIRA FELIZARDO
+### **Integrantes**: Murilo de Sousa, Henrique Ramos Sales, Gabriel Alves Cuba, Vitor Henrique de Oliveira Felizardo
