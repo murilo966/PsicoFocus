@@ -21,7 +21,7 @@
   Trazemos as principais causas e consequências, juntamente com o conhecimento embasado em arquivos e blogs online que buscam
   responder o que representa cada uma das sensações descritas anteriormente e seus modelos de ocorrência
 
-# Imagens:
+# Screenshots:
   <p align="center">
     <img src="https://github.com/murilo966/PsicoFocus/blob/main/imagens/ReadMeIMG/Home.png" alt="Logo" width="450">
   </p>
